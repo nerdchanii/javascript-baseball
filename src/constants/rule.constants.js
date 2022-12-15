@@ -4,7 +4,9 @@ const RULE = Object.freeze({
     MIN: 0,
     MAX: 9,
   },
-  MOVE_BOUNDARY: 4
+  MOVE_BOUNDARY: 4,
+  CAR_NAMES_DELIMITER: ','
+
 })
 
 

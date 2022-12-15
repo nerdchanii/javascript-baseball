@@ -9,7 +9,8 @@ const MESSAGE = Object.freeze({
     PREFIX_RESULT: '실행결과 출력\n',
     WINNER: '최종우승자',
     CAR_MOVED_LOG: '-',
-    COMPOSIT_FORMAT: ':'
+    COMPOSITE_DELIMITER: ':',
+    WINNER_COMPOSE: ','
   }
 });
 
