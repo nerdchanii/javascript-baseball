@@ -19,6 +19,12 @@ class CarGame {
   }
 
 
+  getStatus() {
+    return this.cars.map((car) => {
+      return [car.name, car.position];
+    })
+  }
+
 }
 
 module.exports = CarGame;
