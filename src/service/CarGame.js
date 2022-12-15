@@ -8,7 +8,16 @@ class CarGame {
     this.cars = names.map((carName) => new Car(carName));
   }
 
+  playTurn() {
+    this.cars.reduce((canGo, car) => {
+      if (canGo()) {
+        car.move();
+      }
+      return canGo;
+    }, moveJudgeFn)
+  }
+
 
 }
 
-module.exports= CarGame;
+module.exports = CarGame;
