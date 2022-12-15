@@ -1,3 +1,4 @@
+const Car = require('../model/Car');
 const moveJudgeFn = require('../utils/moveJuge');
 
 class CarGame {
